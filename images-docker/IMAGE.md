@@ -13,3 +13,6 @@ Alpaine -> Possui gerênciador de pacotes e é super enxuto. Versão simples do 
 # COMMAND
 
 docker image build -t "name":"version" local-dockerfile
+docker container run -it meu-apache:1.0.0 
+
+--no-cache cria imagens sem cache
